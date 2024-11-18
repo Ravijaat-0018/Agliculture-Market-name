@@ -1,0 +1,53 @@
+.customer-page {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .customer-page h2 {
+    color: #4caf50;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .customer-page p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Styling for the crop table */
+  .crop-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .crop-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .crop-table th,
+  .crop-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .crop-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .crop-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .crop-table tr:hover {
+    background-color: #e9ffe9;
+  }
+  

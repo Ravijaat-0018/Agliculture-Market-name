@@ -1,0 +1,99 @@
+.buyer-page {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .buyer-page h2 {
+    color: #4caf50;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .buyer-page p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Form Styling */
+  .crop-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto 20px;
+  }
+  
+  .crop-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .crop-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .crop-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .crop-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Crop List Table Styling */
+  .crop-list {
+    margin-top: 20px;
+  }
+  
+  .crop-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .crop-list th,
+  .crop-list td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .crop-list th {
+    background-color: #f4f4f4;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .crop-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .crop-list tr:hover {
+    background-color: #e9ffe9;
+  }
+  
+  .crop-list button {
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .crop-list button:hover {
+    background-color: #d32f2f;
+  }
+   
